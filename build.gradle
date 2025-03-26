@@ -93,6 +93,9 @@ dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
     implementation fg.deobf("curse.maven:vault-hunters-official-mod-458203:5925633")
+    implementation fg.deobf("curse.maven:vault-hunters-api-1118899:6036598")
+    implementation fg.deobf("curse.maven:vaultfaster-988487:5962104")
+    implementation fg.deobf("curse.maven:wolds-vaults-standalone-1132404:6124859")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
 }

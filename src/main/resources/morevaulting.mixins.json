@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dog.morevaulting.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "morevaulting.refmap.json",
+  "mixins": [
+    "MixinModConfigs",
+    "MixinVaultMobsConfig",
+    "VaultOnTeleport"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
