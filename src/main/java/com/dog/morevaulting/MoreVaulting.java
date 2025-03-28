@@ -2,6 +2,7 @@ package com.dog.morevaulting;
 
 import com.dog.morevaulting.init.ModCreativeTab;
 import com.dog.morevaulting.init.ModItems;
+import iskallia.vault.init.ModConfigs;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,7 +24,7 @@ public class MoreVaulting {
 
 
     public MoreVaulting() {
-        LOGGER.info("More Vault Objectives Started");
+        LOGGER.info("MoreVaulting Started");
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::clientSetup);
@@ -36,7 +37,7 @@ public class MoreVaulting {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-        LOGGER.info("More Vault Objectives initialized");
+        LOGGER.info("MoreVaulting initialized");
 
     }
 
